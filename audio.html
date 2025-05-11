@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+          }
+        .navbar{
+            background-color: #121212;
+            display:flex;
+            top:0;
+            gap: 40px;
+            justify-content: center;
+            padding: 15px 0;
+            top: 0;
+        }
+        .navbar a{
+            color:white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+        .navbar a:hover{
+            background-color:#121212;
+            color: lightskyblue;
+            border-radius: 6px;
+        }
+        .cards{
+            margin: 20px;
+            display: flex;
+            gap:20px;
+        }
+        .card{
+            background-color: #181818;
+            padding: 15px;
+            border-radius: 10px;
+            width: 140px;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 8px;
+            border:2px solid grey;
+            height: 140px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card p {
+            font-size: 14px;
+            color: rgb(173, 172, 169);
+            overflow-wrap: break-word;
+          }
+          
+        .image:hover {
+            transform: scale(1.05);
+        }
+        .image img{
+                width: 150px;         
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover; 
+                border: 2px solid #fff; 
+              } 
+        .image p{
+            font-size: 14px;
+            color: rgb(173, 172, 169);
+        }    
+    
+        audio{
+           width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+        <a href="#trending">Trending</a>
+        <a href="#artists">Artists</a>
+        <a href="#albums">Albums</a>
+        <a href="#radio">Radio</a>
+        <a href="#charts">Charts</a>
+      </div>
+      <main>
+        <div class="main">
+            <div class="section" id="trending">
+                <h2>Trending Songs</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./chal.jpg">
+                        <h4 >CHAL</h4>
+                        <audio src="./CHAL(48k).mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="./finding her.jpg">
+                        <h4>Finding Her</h4>
+                        <audio src="./FINDING_HER SONG(48k).mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="./jhol.jpg">
+                        <h4>Jhol</h4>
+                        <audio src="./Jhol___Coke_Studio_Pakistan___Season_15___Maanu_x_Annural_Khalid(48k).mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="./pal pal.jpg">
+                        <h4>Pal Pal</h4>
+                        <audio src="./Afusic_-_Pal_Pal__Official_Music_Video__Prod._@AliSoomroMusic(48k).mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="./safar.jpg">
+                        <h4>Maand</h4>
+                        <audio src="./Maand__Lyrics__-_Bayaan,_Hasan_Raheem,_Rovalio(48k).mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="./tamasha.jpg">
+                        <h4>Matargashti</h4>
+                        <audio src="./MATARGASHTI_full_VIDEO_Song___TAMASHA_Songs_2015___Ranbir_Kapoor,_Deepika_Padukone___T-Series(48k).mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="./young goat.jpg">
+                        <h4>Young Goat</h4>
+                        <audio src="./Young_G.O.A.T(48k).mp3" controls></audio>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="artists">
+                <h2>Popular Artists</h2>
+                <div class="cards">
+                    <div class="image">
+                        <img src="./pritam.jpg">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="./arijit.jpg">
+                        <h4>Arjit Singh</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="./ar rahman.jpg">
+                        <h4>A.R.Rahman</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="./udit.jpg">
+                        <h4>Udit Narayan</h4>
+                        <p>Artist</p>
+                    </div>
+                  
+                    <div class="image">
+                        <img src="./sachin.jpg">
+                        <h4>Sachin Jigar</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="./vishal.jpg">
+                        <h4>Vishal Shekhar</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="./atif aslam.jpg">
+                        <h4>Atif Aslam</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="./yo yo honey.jpg">
+                        <h4>Yo Yo Honey Singh</h4>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="albums">
+                <h2>Popular albums and singles</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./yeh jawaani hey.jpg">
+                        <h4>Yeh Jawaani Hai Deewani</h4>
+                        <p>Film 2013</p>
+                    </div>
+                    <div class="card">
+                        <img src="./sanam teri kasam.jpg">
+                        <h4>
+                            Sanam Teri Kasam(Original Motion Picture Soundtrack)
+                        </h4>
+                        <p>Himesh Reshammiya.Sameer.Anjaan.Subrat Sinha</p>
+                    </div>
+                    <div class="card">
+                        <img src="young goat.jpg">
+                        <h4>Young G.O.A.T</h4>
+                        <p>Cheema Y ,Gur Sidhu</p>
+                    </div>
+                    <div class="card">
+                        <img src="./aashiqui 2.jpg">
+                        <h4>Aashiqui 2</h4>
+                        <p>Mithoon,Ankit Tiwari.Jeet Gannguli</p>
+                    </div>
+                    <div class="card">
+                        <img src="./glory.jpg">
+                        <h4>Glory</h4>
+                        <p>Yo Yo Honey Singh</p>
+                    </div>
+                    <div class="card">
+                        <img src="raan.jpg">
+                        <h4>Raanjhan(From "Do Patti")</h4>
+                        <p>Sachet-Parampara.Raanjhan(From "Do Patti")</p>
+                    </div>
+                    <div class="card">
+                        <img src="./making memories.jpg">
+                        <h4>Making Memories</h4>
+                        <p>Karan Aujla</p>
+                    </div>
+                    <div class="card">
+                        <img src="./ultimate love songs.jpg">
+                        <h4>Ultimate Love Songs-Arjit Singh</h4>
+                        <p>Arjit Singh</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="section" id="radio">
+                <h2>Popular radio</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./diljit.jpg">
+                        <p>Diljit Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./kk.jpg">
+                        <p> KK Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./arjit singh.jpg">
+                        <p>Arijit Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./shreya ghosal.jpg">
+                        <p>Shreya Ghosal Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./kumar sanu.jpg">
+                        <p>Kumar Sanu Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./kishore.jpg">
+                        <p>Kishor Kumar Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./yo yo.jpg">
+                        <p>Yo Yo Honey Singh Radio</p>
+                    </div>
+                    <div class="card">
+                        <img src="./sidhu.jpg">
+                        <p>Sidhu Moose Wala Radio</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </main>
+      <div class="section" id="charts">
+        <h2>Featured Charts</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="./top global.jpg">
+            <p>Your weekly update of the most played tracks right now-Global.</p>
+          </div>
+          <div class="card">
+            <img src="./top 50 india.jpg">
+            <p>Your weekly update of the most played tracks right now-India.</p>
+          </div>
+          <div class="card">
+            <img src="./top 50.jpg">
+            <p>Your daily update of the most plsyed tracks right now-Global.</p>
+          </div>
+          <div class="card">
+            <img src="./top india.jpg">
+            <p>Your daily update of the most played tracks right now-India.</p>
+          </div>
+          <div class="card">
+            <img src="./viral 50 global.jpg">
+            <p>Your daily update of the most viral tracks right now-Global.</p>
+          </div>
+          <div class="card">
+            <img src="./viral 50 india.jpg">
+            <p>Your daily update of the most played tracks right now-India.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <br>
+
+</body>
+</html>
